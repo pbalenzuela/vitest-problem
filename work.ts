@@ -1,6 +1,6 @@
-import { then } from './module';
+import { notThen } from './module';
 
 export function work() {
-  then();
+  notThen();
   return 'work';
 }
