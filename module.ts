@@ -1,3 +1,12 @@
-export function then() {
-    return undefined;
-  }
+export const afterAll = () => undefined;
+export const afterEach = () => undefined;
+export const assert = () => undefined;
+export const beforeAll = () => undefined;
+export const beforeEach = () => undefined;
+export const describe = () => undefined;
+export const expect = () => undefined;
+export const it = () => undefined;
+export const suite = () => undefined;
+export const test = () => undefined;
+export const vi = () => undefined;
+export const vitest = () => undefined;

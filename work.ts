@@ -1,6 +1,21 @@
-import { then } from './module';
+import { afterAll, afterEach, assert, beforeAll, beforeEach, describe, expect, it, suite, test, vi, vitest } from './module';
+
+export function runAll() {
+  afterAll();
+  afterEach();
+  assert();
+  beforeAll();
+  beforeEach();
+  describe();
+  expect();
+  it();
+  suite();
+  test();
+  vi();
+  vitest();
+}
 
 export function work() {
-  then();
+ runAll();
   return 'work';
 }
