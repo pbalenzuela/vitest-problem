@@ -1,3 +1,3 @@
-export function notThen() {
+export function then() {
     return undefined;
   }
